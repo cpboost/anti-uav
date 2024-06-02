@@ -32,3 +32,4 @@ python ltr/run_training.py modal modal
 Frequently FAQs (keep updating):
 1. Q: When I run the training command, there is an error indicating that setting an array element with a sequence, the requested array has an inhomogeneous shape.
 A: In AntiFusion.py, set visible_data = np.array, dtype = object.
+
